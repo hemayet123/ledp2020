@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>flower_css</title>
+	<style>
+		.a{
+			height: 200px;
+			width: 200px;
+			border-top-right-radius:40%;
+			border-bottom-left-radius: 40%;
+			background-color: green;
+			position: relative;
+			z-index: 1
+		}
+		.b{
+			height: 200px;
+			width: 200px;
+			background-color: red;
+			border-top-left-radius: 40%;
+			border-bottom-right-radius: 40%;
+			position: absolute;
+			left: 13.5%;
+			top: 1%;
+			
+			z-index: 2;
+
+		}
+		.c{
+			height: 200px;
+			width: 200px;
+			background-color: red;
+			border-top-left-radius: 40%;
+			border-bottom-right-radius: 40%;
+			position: relative;
+
+		}
+		.d{
+			height: 200px;
+			width: 200px;
+			background-color: green;
+			border-bottom-left-radius: 40%;
+			border-top-right-radius: 40%;
+			position: absolute;
+			left: 13.5%;
+			top: 28.5%;
+		}
+	</style>
+</head>
+<body>
+	<div class="a"></div>
+	<div class="b"></div>
+	<div class="c"></div>
+	<div class="d"></div>
+</body>
+</html>
